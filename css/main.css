@@ -127,6 +127,10 @@ strong.logo {
     border-radius: 1px;
 }
 
+.carousel.slide {
+    margin-bottom: 30px;
+}
+
 /*UP Button*/
 
 #myBtn {
