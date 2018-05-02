@@ -13,6 +13,11 @@
 
 body {
     height: 100%;
+    background-image: url(/assets/img/background6.jpg);
+}
+
+.section-container {
+    background-color: rgba(211, 211, 211, 0.9);
 }
 
 .parallax {
@@ -29,12 +34,26 @@ footer {
     background-color: gray;
 }
 
-section {
+/*section {
     padding-top: 56px;
 }
 
 section#about {
     padding-top: 0;
+}*/
+
+.card {
+    margin: 30px auto;
+    box-shadow: 2px 2px 20px grey;
+}
+
+ul>li>a {
+    color: #6c757d;
+}
+
+ul>li>a:hover {
+    text-decoration: none;
+    color: #424649;
 }
 
 .about-conatiner {
@@ -128,7 +147,7 @@ strong.logo {
 }
 
 .carousel.slide {
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
 /*UP Button*/
